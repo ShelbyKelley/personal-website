@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { AboutComponent } from "./about/about.component";
 import { BlogComponent } from "./blog/blog.component";
 import { ProjectsComponent } from "./projects/projects.component";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import { ProjectsComponent } from "./projects/projects.component";
     BlogComponent,
     ProjectsComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
