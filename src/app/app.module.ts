@@ -7,6 +7,8 @@ import { AboutComponent } from "./about/about.component";
 import { BlogComponent } from "./blog/blog.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavBarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AboutComponent,
     BlogComponent,
     ProjectsComponent,
+    NavBarComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
