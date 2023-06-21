@@ -1,1 +1,16 @@
-<p>app-nav works!</p>
+<mat-toolbar class="mat-elevation-z2" color="primary">
+  <span>Shelby's Website</span>
+  <a mat-button routerLink="/home">Home</a>
+  <a mat-button routerLink="/about">About</a>
+  <a mat-button routerLink="/blog">Blog</a>
+  <div class="spacer"></div>
+  <button mat-mini-fab class="icon" color="accent">
+    <fa-icon mat-button [icon]="faTwitter"></fa-icon>
+  </button>
+  <button mat-mini-fab class="icon" color="accent">
+    <fa-icon mat-button [icon]="faYoutube"></fa-icon>
+  </button>
+  <button mat-mini-fab class="icon" color="accent">
+    <fa-icon mat-button [icon]="faLinkedIn"></fa-icon>
+  </button>
+</mat-toolbar>
