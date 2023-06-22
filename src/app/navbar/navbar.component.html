@@ -1,16 +1,21 @@
 <mat-toolbar class="mat-elevation-z2" color="primary">
-  <span>Shelby's Website</span>
+  <!-- logo goes here -->
+  <a mat-button routerLink="/"><span>Shelby's Website</span></a>
+
+  <!-- page routes -->
   <a mat-button routerLink="/home">Home</a>
   <a mat-button routerLink="/about">About</a>
   <a mat-button routerLink="/blog">Blog</a>
   <div class="spacer"></div>
-  <button mat-mini-fab class="icon" color="accent">
+
+  <!-- social media links -->
+  <a mat-mini-fab class="icon" color="accent" href="https://twitter.com/Shelankel">
     <fa-icon mat-button [icon]="faTwitter"></fa-icon>
-  </button>
-  <button mat-mini-fab class="icon" color="accent">
+  </a>
+  <a mat-mini-fab class="icon" color="accent" href="https://www.youtube.com/channel/UCNsH3_X-cqzdigynnJ3Q6sg">
     <fa-icon mat-button [icon]="faYoutube"></fa-icon>
-  </button>
-  <button mat-mini-fab class="icon" color="accent">
+  </a>
+  <a mat-mini-fab class="icon" color="accent" href="https://www.linkedin.com/in/shelbyakelley/">
     <fa-icon mat-button [icon]="faLinkedIn"></fa-icon>
-  </button>
+  </a>
 </mat-toolbar>
