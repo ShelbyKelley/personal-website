@@ -1,6 +1,6 @@
 {
-  "$schema": "node_modules/nx/schemas/project-schema.json",
   "name": "personal-website",
+  "$schema": "node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "generators": {
     "@schematics/angular:component": {
@@ -56,10 +56,7 @@
           "namedChunks": true
         }
       },
-      "defaultConfiguration": "production",
-      "outputs": [
-        "{options.outputPath}"
-      ]
+      "defaultConfiguration": "production"
     },
     "serve": {
       "executor": "@angular-devkit/build-angular:dev-server",
