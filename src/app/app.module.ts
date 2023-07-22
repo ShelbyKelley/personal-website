@@ -13,7 +13,6 @@ import { BlogComponent } from "./blog/blog.component";
 import { ProjectsComponent } from "./projects/projects.component";
 import { NavBarComponent } from "./navbar/navbar.component";
 import { FooterComponent } from "./footer/footer.component";
-import { HomeComponent } from "./home/home.component";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 @NgModule({
@@ -24,7 +23,6 @@ import { PageNotFoundComponent } from "./page-not-found/page-not-found.component
     ProjectsComponent,
     NavBarComponent,
     FooterComponent,
-    HomeComponent,
     PageNotFoundComponent,
   ],
   imports: [

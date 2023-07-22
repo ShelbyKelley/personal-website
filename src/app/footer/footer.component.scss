@@ -3,6 +3,7 @@
   display: flex;
   flex-flow: row wrap;
   padding: 8px;
+  width: 100%;
 }
 .angular-logo {
   flex: 1;
@@ -11,8 +12,8 @@
 }
 .personal-logo {
   display: flex;
-  justify-content: center;
   flex: 1;
+  justify-content: flex-start;
   font-size: small;
   font-weight: 100;
 }
