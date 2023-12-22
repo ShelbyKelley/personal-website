@@ -4,3 +4,4 @@ package-lock.json
 .angular
 .vscode
 dist
+.nx/cache

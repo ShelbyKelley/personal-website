@@ -1,16 +1,4 @@
 {
-  "tasksRunnerOptions": {
-    "default": {
-      "runner": "nx-cloud",
-      "options": {
-        "cacheableOperations": [
-          "build",
-          "test"
-        ],
-        "accessToken": "NTcyMGU5YmItMmYyOC00ZWY1LWE0M2QtMmNlNDFkYTc4MzY0fHJlYWQtd3JpdGU="
-      }
-    }
-  },
   "affected": {
     "defaultBase": "main"
   },
@@ -34,13 +22,16 @@
       "inputs": [
         "production",
         "^production"
-      ]
+      ],
+      "cache": true
     },
     "test": {
       "inputs": [
         "default",
         "^production"
-      ]
+      ],
+      "cache": true
     }
-  }
+  },
+  "nxCloudAccessToken": "NTcyMGU5YmItMmYyOC00ZWY1LWE0M2QtMmNlNDFkYTc4MzY0fHJlYWQtd3JpdGU="
 }
